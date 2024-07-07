@@ -22,16 +22,14 @@ function Home() {
 
   return (
     <div>
-      {users.map((user) => {
-        return (
+      {users.map((user) => (
           <div style={{ border: `${pixels} solid black` }}>
             <div>{user?.id}</div>
             <div>{user?.name}</div>
             <div>{user?.email}</div>
             <div>{user?.username}</div>
           </div>
-        );
-      })}
+      ))}
     </div>
   );
 }
