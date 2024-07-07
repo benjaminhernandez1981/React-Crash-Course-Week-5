@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/" element={<Home />} />
         <Route path="/users/:id" element={<Users />} />
       </Routes>
     </Router>
